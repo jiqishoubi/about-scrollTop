@@ -17,7 +17,7 @@ const Index: React.FC = () => {
         </button>
         <button
           onClick={() => {
-            navigate('/index')
+            navigate('/')
           }}
         >
           跳转列表页
