@@ -1,3 +1,8 @@
+.page {
+  /* height: 100vh;
+  overflow: auto; */
+}
+
 .item {
   width: 100px;
   height: 300px;

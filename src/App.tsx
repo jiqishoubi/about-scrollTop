@@ -1,20 +1,21 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Index from './index'
-import Detail from './detail'
+import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Index from "./index";
+import Detail from "./detail";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Index />,
   },
   {
-    path: 'detail',
+    path: "detail",
     element: <Detail />,
   },
-])
+]);
 
 function App() {
-  return <RouterProvider router={router} />
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
